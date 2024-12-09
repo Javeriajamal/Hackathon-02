@@ -58,7 +58,7 @@ export default function Footer(){
         </div>
 
         <div className="max-lg:min-w-[140px]">
-          <h4 className="text-gray-800 font-semibold text-base relative max-sm:cursor-pointer">Support</h4>
+          <h4 className="text-[#9A9CAA] font-semibold text-base relative max-sm:cursor-pointer">Support</h4>
           <ul className="space-y-4 mt-6">
             <li>
               <a href='javascript:void(0)' className='hover:text-gray-800 text-gray-600 text-sm'>Help & Support</a>
