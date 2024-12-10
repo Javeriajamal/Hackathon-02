@@ -84,8 +84,10 @@ export default function Footer(){
         <h2 className="font-inter font-medium text-[14px] tracking-[0.06em] uppercase text-[#9A9CAA] ">Newsletter</h2>
         
         <div className=" xs:w-auto xs:h-10 xs:mt-8 border-2 rounded-md">
-          <div className="bg-white  border-[#333435] "></div>
-          <span className=" font-inter font-normal xs:text-[14px] text-[#9A9CAA] xs:px-4 xs:pt-2">Your email</span>
+          <input className="bg-white border-[#333435] ml-3 pt-1" 
+          type="text"
+          placeholder="Your email" />
+          
         </div>
         
         <button className="flex justify-center items-center xs:px-[20px] py-[10px] gap-[20px] bg-[#029FAE] rounded-[8px] xs:mt-4"><span className="w-[79px] h-[18px] font-inter text-[16px] leading-[110%] text-center capitalize text-white">Subscribe</span></button>
