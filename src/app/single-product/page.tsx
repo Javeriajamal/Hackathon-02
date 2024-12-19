@@ -24,13 +24,13 @@ export default function SingleProduct(){
             <h2 className="font-semibold xs:ml-8 xs:text-[20px]">Featured Products</h2>
 
             <div className="flex xs:gap-4 xs:mx-8 xs:mt-4">
-                <img src="/images/Products 7.png" alt="" className="xs:w-40 xs:h-40" />
-                <img src="/images/Products 1.png" alt="" className="xs:w-40 xs:h-40" />
+                <img src="/images/Products 7.png" alt="" className="xs:w-44 xs:h-44" />
+                <img src="/images/Products 1.png" alt="" className="xs:w-44 xs:h-44" />
             </div>
 
             <div className="flex xs:gap-4 xs:mx-8 xs:mt-4">
-                <img src="/images/Products 10.png" alt="" className="xs:w-40 xs:h-40 xs:mt-4" />
-                <img src="/images/Products 3.png" alt="" className="xs:w-40 xs:h-40 xs:mt-4" />
+                <img src="/images/Products 10.png" alt="" className="xs:w-44 xs:h-44 xs:mt-4" />
+                <img src="/images/Products 3.png" alt="" className="xs:w-44 xs:h-44 xs:mt-4" />
             </div>
         </div>
         </div>

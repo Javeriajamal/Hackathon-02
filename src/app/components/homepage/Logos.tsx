@@ -1,7 +1,7 @@
 export default function Logos(){
     return(
         <div className="xs:w-full xs:h-28 xs:mt-8 ">
-            <div className="flex xs:h-14 xs:w-16 xs:gap-8 xs:mx-4 xs:ml-11">
+            <div className="flex xs:h-14 xs:w-16 xs:gap-8 xs:mx-4 xs:ml-12">
                 <img src="/images/zapier.png" alt="xapier" />
                 <img src="/images/pipedrive.png" alt="zapier" />
                 <img src="/images/bank.png" alt="bank" />

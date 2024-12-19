@@ -1,6 +1,6 @@
 export default function Catagories(){
     return(
-        <div className="xs:mt-14 xs:h-auto">
+        <div className="xs:mt-20 xs:h-auto">
             <h1 className="mx-auto xs:text-[20px] xs:ml-14 font-semibold text-[#272343]">Top categories</h1>
 
             <div className="xs:mx-14 xs:mt-5">

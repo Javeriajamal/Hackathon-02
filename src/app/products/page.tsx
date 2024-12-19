@@ -6,7 +6,7 @@ export default function AllProduct(){
     <div className="xs:mt-10 xs:h-auto ">
         <h1 className="mx-auto xs:text-[20px] xs:ml-7 font-semibold text-[#272343]">All Products</h1>
 
-        <div className="grid xs:grid-cols-2 xs:gap-2 xs:mx-6 xs:mt-5">
+        <div className="grid xs:grid-cols-2 xs:gap-3 xs:mx-6 xs:mt-5">
             <img src="/images/Products 1.png" alt="" className="xs:h-44 xs:w-44" />
             <Link href={'/single-product'}>
             <img src="/images/Products2.png" alt="" className="xs:h-44 xs:w-44" />
