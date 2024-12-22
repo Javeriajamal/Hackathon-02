@@ -4,21 +4,26 @@ export default function AllProduct(){
     return(
     
     <div className="xs:mt-10 xs:h-auto ">
-        <h1 className="mx-auto xs:text-[20px] xs:ml-7 font-semibold text-[#272343]">All Products</h1>
+        <h1 className="mx-auto xs:text-[20px] xs:ml-7 font-semibold text-[#272343] sm:ml-16">All Products</h1>
 
-        <div className="grid xs:grid-cols-2 xs:gap-3 xs:mx-6 xs:mt-5">
-            <img src="/images/Products 1.png" alt="" className="xs:h-44 xs:w-44" />
+        <div className="grid xs:grid-cols-2 xs:gap-3 xs:mx-6 xs:mt-5 sm:flex sm:flex-wrap sm:mx-16">
+            <img src="/images/Products 1.png" alt="" className="xs:h-44 xs:w-44 sm:mt-0 sm:w-40 sm:h-40" />
             <Link href={'/single-product'}>
-            <img src="/images/Products2.png" alt="" className="xs:h-44 xs:w-44" />
+            <img src="/images/Products2.png" alt="" className="xs:h-44 xs:w-44 sm:w-40 sm:h-40" />
             </Link>
-            <img src="/images/Products 3.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4" />
-            <img src="/images/Products 4.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4" />
-            <img src="/images/Products 7.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4" />
-            <img src="/images/Products 8.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4" />
-            <img src="/images/Products 9.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4" />
-            <img src="/images/Products 5.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4" />
-            <img src="/images/Products2.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4" />
-            <img src="/images/Products 10.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4" />
+            <img src="/images/Products 3.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40 sm:mt-0" />
+            <img src="/images/Products 4.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40" />
+            <img src="/images/Products 7.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40" />
+            <img src="/images/Products 8.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40" />
+            <img src="/images/Products 9.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40" />
+            <img src="/images/Products 5.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40" />
+            <img src="/images/Products2.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40" />
+            <img src="/images/Products 10.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40" />
+            <img src="/images/Products 1.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40 " />
+            <img src="/images/Products 3.png" alt="" className="xs:h-44 xs:w-44 xs:mt-4 sm:w-40 sm:h-40 " />
+
+
+
 
         </div>
 

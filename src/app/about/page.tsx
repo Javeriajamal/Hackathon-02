@@ -33,7 +33,7 @@ export default function About(){
 
 
       <div className='xs:mt-24 '>
-        <h1 className='xs:font-semibold '>Our Popular Products </h1>
+        <h1 className='xs:font-semibold xs:text-[20px] '>Our Popular Products </h1>
         
         <div className='xs:mt-5 '>
         <img src="/images/about-product1.png" alt="" className='xs:w-96 xs:h-48 ' />

@@ -8,7 +8,7 @@ export default function Header(){
       <>
       <Top />
       <Middle /> 
-        <header className='flex bg-white border-b py-3 sm:px-6 px-4 font-[sans-serif] xs:h-12 tracking-wide relative z-50'>
+        <header className='flex  bg-white border-b py-3 sm:px-6 px-4 font-[sans-serif] xs:h-12 tracking-wide relative z-50  '>
           
           <div className='flex max-w-screen-lg mx-auto w-80'>
             <div className='flex flex-wrap items-center lg:gap-y-2 gap-4 w-full'>
@@ -37,7 +37,7 @@ export default function Header(){
                 </div>
               </li>
               
-              <li className='max-lg:border-b max-lg:py-3 px-3'><Link href={'/'}
+              <li className='max-lg:border-b max-lg:py-3 px-3 xl:-ml-[342px] '><Link href={'/'}
                 className='text-[#007580] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Home</Link></li>
               <li className='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
                 className='text-[#636270] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Shop</a></li>
@@ -47,15 +47,18 @@ export default function Header(){
                 className='text-[#636270] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Pages</Link></li>
               <li className='max-lg:border-b max-lg:py-3 px-3'><Link href={'/about'}
                 className='text-[#636270]  hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>About</Link></li>
-            </ul>
-          </div>
+              
+              <li className="ml-auto xs:hidden sm:hidden md:hidden lg:block xl:block xl:ml-[560px] xl:text-sm"><span className="text-[#636270] xl:-ml-40  ">Contact: </span>(808) 555-0111
+              </li>
 
-          <p className="ml-auto xs:hidden sm:hidden md:hidden lg:block xl:block"><span className="text-[#636270]">Contact: </span>(808) 555-0111</p>
+            </ul>
+
+          </div>
 
 
         
-              <button id="toggleOpen" className='lg:hidden xs:ml-[310px]'>
-                <svg className="w-7 h-7 " fill="#029FAE" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <button id="toggleOpen" className='lg:hidden xs:ml-[310px] sm:ml-[428px] md:ml-[457px] '>
+                <svg className="w-7 h-7" fill="#029FAE" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd"
                     d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                     clip-rule="evenodd"></path>
