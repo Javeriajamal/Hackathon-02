@@ -2,7 +2,7 @@ export default function Top(){
     return(
         <div className="flex flex-row items-center justify-center xs:px-8 xs:h-10 w-screen overflow-hidden  bg-[#272343]">
             
-            <div className="flex flex-row gap-1 mx-auto xs:w-[255px] xs:h-[16px] opacity-70 sm:w-[280px] sm:h-[18px] text-white xs:text-[11px] xs:-ml-6 sm:ml-4 sm:tracking-wide md:text-[12px] md:ml-8 lg:ml-24 xl:ml-44  ">
+            <div className="flex flex-row gap-1 mx-auto xs:w-[255px] xs:h-[16px] opacity-70 sm:w-[280px] sm:h-[18px] text-white xs:text-[11px] xs:-ml-4 sm:ml-4 sm:tracking-wide md:text-[12px] md:ml-8 lg:ml-24 xl:ml-44  ">
                 <img src="/images/check.png" alt="check" className="" /><span className="xs:w-52">Free shipping on all orders over $50</span></div>
                 
                 <div className="flex flex-row items-end xs:gap-1 opacity-70 xs:-mr-6 sm:mr-5 md:mr-6 lg:mr-[90px] xl:mr-44 ">

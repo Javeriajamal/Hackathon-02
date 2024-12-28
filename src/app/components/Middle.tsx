@@ -11,7 +11,7 @@ export default function Middle(){
                 
                 <div className="w-[118px] h-[31px] xs:text-[20px] xs:text-lg sm:w-[130px] sm:h-[40px] sm:text-[20px] text-[#272343] font-medium leading-[120%] xl:text-2xl ">Comforty</div>
 
-                <div className="xs:w-24 xs:h-8 xs:ml-28 xs:-mt-0 bg-white rounded-md justify-end sm:ml-[262px] md:ml-[370px] lg:ml-[497px] xl:ml-[670px]  ">
+                <div className="xs:w-24 xs:h-8 xs:ml-[122px] xs:-mt-0 bg-white rounded-md justify-end sm:ml-[262px] md:ml-[370px] lg:ml-[497px] xl:ml-[670px]  ">
                     <Link href={'/cart'}>
                     <img src="/images/cart.png" className="xs:h-4 xs:w-4 xs:ml-3 xs:my-2"/>
                     </Link>
