@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer(){
   return(
-    <footer className="font-sans tracking-wide bg-gray-50 px-10 pt-12 pb-6 h-auto">
+    <footer className="font-sans tracking-wide bg-gray-50 px-10 pt-12 pb-6 mb-0 h-auto overflow-y-hidden">
       <div className="xs:flex xs:flex-wrap justify-between gap-10 xl:flex-row">
         <div className="max-w-md sm:ml-24 md:ml-6 lg:ml-20  xl:ml-44">
           <a href='javascript:void(0)'>
@@ -85,7 +85,7 @@ export default function Footer(){
         <h2 className="font-inter font-medium text-[14px] tracking-[0.06em] uppercase text-[#9A9CAA] ">Newsletter</h2>
         
         <div className=" xs:w-52 xs:h-10 xs:mt-8 border-2 rounded-md sm:w-52 sm:flex md:w-72 lg:w-44 xl:w-52 xl:flex xl:gap-6 xl:h-12 ">
-          <input className="bg- white border-[#333435] ml-3 pt-1 xs:w-48   md:w-72 lg:w-40 xl:w-44" 
+          <input className="bg- white border-[#333435] ml-3 pt-1 xs:w-48 md:w-72 lg:w-40 xl:w-44" 
           type="text"
           placeholder="Your email" />
           

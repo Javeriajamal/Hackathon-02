@@ -5,7 +5,7 @@ export default function About(){
 
     <div className='xs:h-[1600px] xs:mb-10 sm:h-[2100px] md:h-[1100px] xl:h-[1300px] '> 
     
-    <div className="bg-[#007580] xs:w-[370px] xs:h-72 xs:mt-14 xs:mx-3 sm:ml-14 sm:w-[520px] sm:h-96 md:ml-16  md:w-[315px] md:h-80 md:mt-24  lg:w-[370px] lg:h-[370px] lg:ml-[130px] xl:w-[465px] xl:ml-[205px] xl:h-[350px] ">
+    <div className="bg-[#007580] xs:w-[372px] xs:h-72 xs:mt-14 xs:mx-5 sm:ml-14 sm:w-[520px] sm:h-96 md:ml-16  md:w-[315px] md:h-80 md:mt-24  lg:w-[370px] lg:h-[370px] lg:ml-[130px] xl:w-[465px] xl:ml-[205px] xl:h-[350px] ">
       
       <div className=" flex flex-col items-start gap-3  ">
         
@@ -20,9 +20,9 @@ export default function About(){
       
       <button className="w-40 h-10 font-inter font-normal xs:text-xs bg-[rgba(249,249,249,0.15)] text-white xs:ml-8 xs:mt-12 sm:ml-14 sm:mt-32 md:mt-20 md:ml-10 lg:mt-28 xl:mt-24">View collection</button>
       
-      <img src="/images/popular 3.png" alt="" className='xs:w-[370px] xs:h-72 xs:mt-8 sm:w-[520px] sm:h-96 sm:mt-20 md:w-[315px] md:ml-[328px] md:-mt-[296px] md:h-80 lg:w-[370px] lg:h-[370px] lg:-mt-[332px] lg:ml-[390px] xl:w-[465px] xl:ml-[480px] xl:-mt-[316px] xl:h-[350px]' />
+      <img src="/images/popular 3.png" alt="" className='xs:w-[372px] xs:h-72 xs:mt-8 sm:w-[520px] sm:h-96 sm:mt-20 md:w-[315px] md:ml-[328px] md:-mt-[296px] md:h-80 lg:w-[370px] lg:h-[370px] lg:-mt-[332px] lg:ml-[390px] xl:w-[465px] xl:ml-[480px] xl:-mt-[316px] xl:h-[350px]' />
 
-      <div className='xs:mt-28 flex flex-wrap xs:gap-3 xs:mx-0 sm:mx-2 sm:gap-6 md:flex-nowrap md:gap-5 md:mx-1 md:mt-32 lg:mx-0 xl:gap-4 '>
+      <div className='xs:mt-28 flex flex-wrap xs:gap-3 xs:mx-1 sm:mx-2 sm:gap-6 md:flex-nowrap md:gap-5 md:mx-1 md:mt-32 lg:mx-0 xl:gap-4 '>
         <img src="/images/box1.png" alt="" className='xs:h-36 xs:w-44 sm:w-60 sm:h-52 md:w-36 md:h-32 lg:w-44 lg:h-36 xl:w-80 xl:h-44 '/>
         <img src="/images/box2.png" alt="" className='xs:h-36 xs:w-44 sm:w-60 sm:h-52 md:w-36 md:h-32 lg:w-44 lg:h-36 xl:w-80 xl:h-44'/>
         <img src="/images/box3.png" alt="" className='xs:h-36 xs:w-44 sm:w-60 sm:h-52 md:w-36 md:h-32 lg:w-44 lg:h-36 xl:w-80 xl:h-44'/>

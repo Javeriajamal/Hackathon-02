@@ -1,6 +1,6 @@
 export default function Cart(){
     return(
-        <div className="h-auto xs:pb-20 lg:pb-40 xl:pb-48">
+        <div className="h-auto xs:pb-20 lg:pb-40 xl:pb-48 overflow-y-hidden">
             <div className="flex flex-col items-start absolute w-[963px] h-[211px] xs:ml-6 xs:mt-10 font-semibold sm:ml-14 sm:text-lg md:ml-16  lg:ml-[110px] xl:ml-52 xl:text-xl xl:mt-14 ">Bag</div>
             <div className="flex xs:mt-4 sm:ml-8 md:ml-10 lg:ml-[85px] xl:ml-[182px] xl:pt-8  ">
                 <img src="/images/popular 1.png" alt="" className="xs:w-28 xs:h-32 xs:ml-6 xs:mt-20 sm:w-32 sm:h-32 lg:w-28 lg:h-32 xl:w-32 xl:h-32 "/>

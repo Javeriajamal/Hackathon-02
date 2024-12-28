@@ -1,6 +1,6 @@
 export default function SingleProduct(){
     return(
-        <div className="xs:h-auto">
+        <div className="xs:h-auto overflow-y-hidden">
         <div className="flex xs:h-auto xs:mt-14 sm:mx-4 sm:mt-20">
             <img src="/images/Image 3.png" alt="" className="xs:w-52 xs:h-60 xs:ml-4 sm:w-80 sm:h-72 sm:ml-6 md:ml-12 md:w-96 md:h-96 lg:ml-28 lg:w-96 lg:h-96 xl:ml-48 xl:w-[500px] xl:h-[450px] "/>
 
