@@ -85,7 +85,7 @@ export default function Footer(){
         <h2 className="font-inter font-medium text-[14px] tracking-[0.06em] uppercase text-[#9A9CAA] ">Newsletter</h2>
         
         <div className=" xs:w-52 xs:h-10 xs:mt-8 border-2 rounded-md sm:w-52 sm:flex md:w-72 lg:w-44 xl:w-52 xl:flex xl:gap-6 xl:h-12 ">
-          <input className="bg-white border-[#333435] ml-3 pt-1 md:w-72 lg:w-40 xl:w-44" 
+          <input className="bg- white border-[#333435] ml-3 pt-1 xs:w-48   md:w-72 lg:w-40 xl:w-44" 
           type="text"
           placeholder="Your email" />
           
