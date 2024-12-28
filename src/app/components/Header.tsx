@@ -37,7 +37,7 @@ export default function Header(){
                 </div>
               </li>
               
-              <li className='max-lg:border-b max-lg:py-3 px-3 xl:-ml-[342px] '><Link href={'/'}
+              <li className='max-lg:border-b max-lg:py-3 px-3 lg:-ml-[260px] xl:-ml-[343px] '><Link href={'/'}
                 className='text-[#007580] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Home</Link></li>
               <li className='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
                 className='text-[#636270] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Shop</a></li>
@@ -48,7 +48,7 @@ export default function Header(){
               <li className='max-lg:border-b max-lg:py-3 px-3'><Link href={'/about'}
                 className='text-[#636270]  hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>About</Link></li>
               
-              <li className="ml-auto xs:hidden sm:hidden md:hidden lg:block xl:block xl:ml-[560px] xl:text-sm"><span className="text-[#636270] xl:-ml-40  ">Contact: </span>(808) 555-0111
+              <li className="ml-auto xs:hidden sm:hidden md:hidden lg:block xl:block lg:ml-[380px] xl:ml-[560px] lg:text-sm xl:text-sm"><span className="text-[#636270] lg:-ml-40 xl:-ml-[162px]  ">Contact: </span>(808) 555-0111
               </li>
 
             </ul>
@@ -57,7 +57,7 @@ export default function Header(){
 
 
         
-              <button id="toggleOpen" className='lg:hidden xs:ml-[310px] sm:ml-[428px] md:ml-[457px] '>
+              <button id="toggleOpen" className='lg:hidden xs:ml-[318px] sm:ml-[396px] md:ml-[457px] '>
                 <svg className="w-7 h-7" fill="#029FAE" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd"
                     d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
