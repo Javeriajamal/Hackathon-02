@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer(){
   return(
-    <footer className="font-sans tracking-wide bg-gray-50 px-10 pt-12 pb-6 mb-0 h-auto overflow-y-hidden">
+    <footer className="font-sans tracking-wide bg-gray-50 px-10 pt-12 pb-6 mb-0 h-auto overflow-y-hidden lg:pb-14  xl:pb-28 ">
       <div className="xs:flex xs:flex-wrap justify-between gap-10 xl:flex-row">
         <div className="max-w-md sm:ml-24 md:ml-6 lg:ml-20  xl:ml-44">
           <a href='javascript:void(0)'>
