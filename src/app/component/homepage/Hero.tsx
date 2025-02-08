@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero(){
     return(
 
@@ -8,7 +10,6 @@ export default function Hero(){
             <h1 className="text-[#272343] xs:text-[8px] sm:text-[10px] md:text-[10px]  ">WELCOME TO CHAIRY</h1>
             <p className="font-bold xs:text-lg text-[#272343] xs:w-48 sm:text-2xl sm:w-60 md:text-3xl md:w-72 lg:text-4xl lg:w-96 xl:text-5xl xl:w-[500px]    ">Best Furniture Collection For Your Interior.</p>
             <button className="flex text-white xs:text-[10px] justify-center items-center absolute bg-[#029FAE] rounded-lg xs:px-2 xs:py-3 gap-2 xs:w-24 xs:h-8 xs:mt-3 sm:mt-6 sm:w-24  md:w-28 md:h-9 md:text-[12px] lg:w-32 lg:text-[13px] ">Shop Now<img src="/images/arrow.png" alt="arrow" className="xs:h-5 lg:h-6 " /></button>
-            
             </div>
         </div>
     )

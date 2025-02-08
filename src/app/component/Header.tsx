@@ -12,6 +12,7 @@ export default function Header(){
           
           <div className='flex max-w-screen-lg mx-auto w-80'>
             <div className='flex flex-wrap items-center lg:gap-y-2 gap-4 w-full'>
+
           
 
           <div id="collapseMenu"
@@ -41,7 +42,7 @@ export default function Header(){
                 className='text-[#007580] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Home</Link></li>
               <li className='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
                 className='text-[#636270] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Shop</a></li>
-              <li className='max-lg:border-b max-lg:py-3 px-3'><Link href={'/products'}
+              <li className='max-lg:border-b max-lg:py-3 px-3'><Link href={'/Product'}
                 className='text-[#636270] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Product</Link></li>
               <li className='max-lg:border-b max-lg:py-3 px-3'><Link href={'/login'}
                 className='text-[#636270] hover:text-[#007bff] text-[14px] block font-semibold focus:outline-none focus:underline'>Pages</Link></li>
