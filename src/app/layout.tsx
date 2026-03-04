@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/app/component/Header";
 import Footer from "@/app/component/Footer";
 import ProviderWrapper from "./ProviderWrapper";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,8 +30,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-    <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
-    <script src="https://files.bpcontent.cloud/2026/03/03/16/20260303162426-YG2RW13M.js" defer></script>
+    <Script
+  src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"
+  strategy="afterInteractive"
+    />
+
+    <Script
+  src="https://files.bpcontent.cloud/2026/03/03/16/20260303162426-YG2RW13M.js"
+  strategy="afterInteractive"
+    />
     
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
